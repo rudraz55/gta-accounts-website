@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OwO GTA 5 Steam Accounts Sale</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: white;
+            height: 100vh;
+            animation: backgroundAnimation 10s infinite alternate;
+        }
+        
+        /* Animated Background Gradient */
+        @keyframes backgroundAnimation {
+            0% {
+                background: linear-gradient(45deg, #ff6347, #FFD700, #1e90ff, #32cd32);
+                background-size: 400% 400%;
+            }
+            100% {
+                background: linear-gradient(45deg, #32cd32, #ff6347, #FFD700, #1e90ff);
+                background-size: 400% 400%;
+            }
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7); /* Transparent dark background */
+            color: white;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            animation: fadeInHeader 2s forwards;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #FFD700; /* Gold color */
+            margin-bottom: 10px;
+        }
+
+        .server-name {
+            font-size: 24px;
+            color: #FFD700;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 15px 0;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #FF6347;
+            font-size: 18px;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #FF4500;
+            color: white;
+        }
+
+        .content {
+            padding: 90px 20px;
+        }
+
+        .details {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            width: 80%;
+            max-width: 500px;
+            margin: auto;
+            opacity: 0;
+            transform: translateY(100px);
+            animation: slideInFromBottom 1s forwards;
+            animation-delay: 0.5s;
+        }
+
+        .price {
+            font-size: 22px;
+            font-weight: bold;
+            color: #FF6347;
+            margin-top: 15px;
+        }
+
+        .button {
+            margin-top: 20px;
+            padding: 12px 20px;
+            background-color: #FF6347;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #FF4500;
+        }
+
+        .owo {
+            font-size: 16px;
+            color: #FF6347;
+            margin-top: 15px;
+        }
+
+        /* Animations */
+        @keyframes fadeInHeader {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes slideInFromBottom {
+            0% { opacity: 0; transform: translateY(100px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Scroll-based animation trigger */
+        .fadeInOnScroll {
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        .fadeInOnScroll.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="https://discord.gg/34MZhyvv" target="_blank">Join Discord Server</a>
+</nav>
+
+<header>
+    <h1>OwO GTA 5 Steam Accounts for Sale!</h1>
+    <div class="server-name">
+        🌸𝑷𝑶𝑹𝑻 𝑻𝑶𝑾𝑵 │🕹 𝑮𝑨𝑴𝑰𝑵𝑮 │ 𝑩𝑨𝑲𝑪𝑯𝑶𝑫𝑰 │𝑪𝑯𝑰𝑳𝑳𝑰𝑵𝑮 │
+    </div>
+</header>
+
+<div class="content">
+    <div class="details fadeInOnScroll">
+        <h2>✨ **15 GTA 5 Steam Accounts!** ✨</h2>
+        <p>We are selling **15 Steam accounts** with **GTA 5** for just **4M OwO coins each!**</p>
+        <p class="price">4M OwO coins per account 🔥</p>
+        <p>No scam, 100% legit 🚀</p>
+        <p>🎮 **Only 15 accounts left!** 🎮</p>
+        <p class="owo">✨ DM me on Discord at **ryo_syp** to grab yours before they're gone! ✨</p>
+        <a href="https://discord.com/users/ryo_syp" class="button">Send Request on Discord</a>
+    </div>
+</div>
+
+<script>
+    // Function to add scroll animation effect
+    window.addEventListener('scroll', () => {
+        const scrollElements = document.querySelectorAll('.fadeInOnScroll');
+        scrollElements.forEach((el) => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top < window.innerHeight) {
+                el.classList.add('show');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
